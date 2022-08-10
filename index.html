@@ -4,37 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Уют в вашем доме</title>
+    <title>Студия дизайна SCANDI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="intro">
+    <section class="intro">
     <header>
         <nav>
             <div class="logo">
                 <img src="images/logo.png" alt="Логотип SCANDI">
             </div>
             <ul>
-                <li><a href="#">О компании</a></li>
+                <li><a href="#aboutus">О компании</a></li>
                 <li><a href="#">Портфолио</a></li>
                 <li><a href="#">Команда</a></li>
                 <li><a href="#">Как мы работаем</a></li>
                 <li><a href="#">Отзывы клиентов</a></li>
-                <li><a href="#">Оставить заявку</a></li>
+                <li><a href="#theorder">Оставить заявку</a></li>
+                <li><p>+7 (981) 857-46-24</p></li>
             </ul>
-                <p>+7 (981) 857-46-24</p>
         </nav>
-        
     </header>
     <h1>Студия дизайна SCANDI</h1>
     <h2>Поможем сделать вашу квартиру уютнее</h2>
     <p>Подбираем текстиль, мебель и аксессуары
         под ваш интерьер, находим магазины
         и помогаем организовать доставку </p>
-        <button>Оставить заявку</button>
-    </div>
+        <a href="#theorder">Оставить заявку</a>
+    </section>
     <main>
-    <div class="aboutus">
+    <section class="aboutus">
     <article>
         <h1>О нас</h1>
         <img src="images/flower.png" alt="Цветы на столе">
@@ -49,8 +48,8 @@
             <p>100 проектов</p>
             <p>10 наград</p>
         </section>
-    </div>
-    <div>
+    </section>
+    <section>
         <h1>Наши работы</h1>
         <figure>
             <section class="work1">
@@ -64,8 +63,8 @@
             <img src="images/work4.png" alt="Работа 4">
         </figure>
         <a href="#">Смотреть еще <img src="images/arrow.svg" alt="Стрелка вправо"></a>
-    </div>
-    <div class="team">
+    </section>
+    <section div class="team">
         <section>
             <h2>Команда</h2>
             <figure>
@@ -88,29 +87,19 @@
         </section>
         <section class="working">
             <h2>Как мы работаем</h2>
-            <div>
-                <p class="numbers">1</p>
-                <p>Знакомимся, выезжаем
-                    на объект, утверждаем концепцию, подписываем договор.</p>
-            </div>
-            <div>
-                <p class="numbers">2</p>
-                <p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
-                    визуализацию.</p>
-            </div>
-            <div>
-                <p class="numbers">3</p>
-                <p>Находим нужные магазины, помогаем с доставкой
-                    и оплатой товаров.</p>
-            </div>
-            <div>
-                <p class="numbers">4</p>
-                <p>Воплощаем проект в жизнь:
-                    расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p>
-            </div>
+            <ol class="numbers">
+                <li><p>Знакомимся, выезжаем
+                    на объект, утверждаем концепцию, подписываем договор.</p></li>
+                <li><p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                    визуализацию.</p></li>
+                <li><p>Находим нужные магазины, помогаем с доставкой
+                    и оплатой товаров.</p></li>
+                <li><p>Воплощаем проект в жизнь:
+                    расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p></li>
+            </ol>
         </section>
-    </div>
-    <div>
+    </section>
+    <article>
         <h2>Отзывы</h2>
         <div class="container">
             <blockquote>
@@ -127,9 +116,9 @@
             <img src="images/back2.png" alt="Комната">
                 </aside>
         </div>
-    </div>
-    <div class="order">
-        <h2>Оставить заявку</h2>
+    </article>
+    <section class="order">
+        <h2 id="theorder">Оставить заявку</h2>
         <p>Оставьте свои контакты. Менеджер перезвонит
             в удобное вам время и ответит на все вопросы.</p>
         <form action="">
@@ -138,7 +127,7 @@
             <input type="submit" name="submit" value="Оставить заявку">
         </form>
         <img src="images/map.png" alt="Где мы находимся">
-    </div>
+    </section>
     </main>
     <footer>
         <address>
